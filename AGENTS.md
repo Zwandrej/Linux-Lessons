@@ -44,10 +44,15 @@ At the end of each lesson:
    - commands practiced
    - questions asked (and answers)
    - exercises
-4. Publish to GitHub (from repo root):
+4. Publish to GitHub at the end of every lesson (from repo root):
    - `git add -A`
    - `git commit -m "docs: add lesson NN"`
    - `git push`
+
+## Teaching Preference (Important)
+- Before asking the learner to run a command, first explain: (1) what it does, (2) what the parts mean, and (3) what to look for in the output.
+- At the start of each lesson, give a short “today you’re learning…” overview (skills + why it matters).
+- When introducing commands/arguments, include practical use cases (what problems this helps solve) and common patterns (e.g., one command + multiple arguments, quoting for spaces).
 
 ## Security & Safety Notes
 - Do not record secrets (tokens, passwords, SSH private keys) in notes.

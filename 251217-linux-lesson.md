@@ -63,6 +63,10 @@ Lessons live in `lessons/` (one file per lesson). This section is just an index.
 - File: `lessons/251217-lesson-00-baseline.md`
 - Status: completed
 
+### Lesson 1 — Shell Basics (Prompt, Commands, Arguments)
+- File: `lessons/251217-lesson-01-shell-basics.md`
+- Status: completed
+
 ## Progress Tracker
 - [ ] Module A complete
 - [ ] Module B complete
