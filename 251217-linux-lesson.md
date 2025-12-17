@@ -61,7 +61,7 @@ Lessons live in `lessons/` (one file per lesson). This section is just an index.
 
 ### Lesson 0 — Baseline & Setup
 - File: `lessons/251217-lesson-00-baseline.md`
-- Status: in progress
+- Status: completed
 
 ## Progress Tracker
 - [ ] Module A complete

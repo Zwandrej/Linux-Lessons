@@ -1,7 +1,7 @@
 # Lesson 0 — Baseline & Setup
 
 - Date: 2025-12-17
-- Status: in progress
+- Status: completed
 - Goal: confirm your environment, safe habits, and your goals for this course
 
 ## Recap (From Previous Lesson)
