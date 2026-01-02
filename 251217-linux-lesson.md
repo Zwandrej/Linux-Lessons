@@ -59,6 +59,9 @@ When you say “start lesson”, I’ll begin with a 2–3 question check-in:
 ## Lesson Log
 Lessons live in `lessons/` (one file per lesson). This section is just an index.
 
+### Course Command Log
+- File: `260102-course-command-log.md`
+
 ### Lesson 0 — Baseline & Setup
 - File: `lessons/251217-lesson-00-baseline.md`
 - Status: completed
@@ -67,8 +70,20 @@ Lessons live in `lessons/` (one file per lesson). This section is just an index.
 - File: `lessons/251217-lesson-01-shell-basics.md`
 - Status: completed
 
+### Lesson 2 — Help System (`man`, `--help`, `info`, `apropos`)
+- File: `lessons/260102-lesson-02-help-system.md`
+- Status: completed
+
+### Lesson 3 — Navigation (`pwd`, `ls`, `cd`, paths, globbing)
+- File: `lessons/260102-lesson-03-navigation.md`
+- Status: completed
+
+### Lesson 4 — Create/Move/Copy/Delete (Safe Habits)
+- File: `lessons/260102-lesson-04-files-safety.md`
+- Status: in progress
+
 ## Progress Tracker
-- [ ] Module A complete
+- [x] Module A complete
 - [ ] Module B complete
 - [ ] Module C complete
 - [ ] Module D complete
