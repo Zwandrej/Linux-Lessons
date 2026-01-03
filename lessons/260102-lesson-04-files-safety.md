@@ -374,3 +374,35 @@ What to look for:
 
 Troubleshooting notes:
 - If the machine shows a `UEFI: <USB>` option but boot drops back into BIOS, common causes are Secure Boot being enabled or a mismatch between firmware and the USB’s EFI bootloader architecture.
+
+### Session practice: core Lesson 4 drills (terminal playground)
+- Date: 2026-01-03
+- Goal: build muscle memory for `cp`, `mv`, and `rm` using a safe sandbox folder
+
+Setup (safe sandbox):
+- `mkdir -p ~/terminal-playground/lesson-04-core && cd ~/terminal-playground/lesson-04-core`
+- Verify location: `pwd`
+- Verify contents: `/usr/bin/ls -la`
+
+Drills completed:
+- Create files/dirs: `mkdir inbox archive work`, `touch note.txt todo.txt "two words.txt"`
+- Copy patterns:
+  - file → file: `cp note.txt note-copy.txt`
+  - file → dir: `cp "two words.txt" inbox/`
+  - dir → dir: `cp -r work work-copy`
+- Move/rename patterns:
+  - move file into dir: `mv todo.txt inbox/`
+  - rename file (remove spaces): `mv "two words.txt" two-words.txt`
+  - move file out of dir: `mv inbox/todo.txt .`
+- Delete patterns:
+  - empty dir: `rmdir archive`
+  - file: `rm note-copy.txt`
+  - non-empty dir (verify first): `/usr/bin/ls -la inbox` then `rm -r inbox`
+- Overwrite-safety flags:
+  - `cp -i` prompts before overwrite; `cp -n` refuses to overwrite
+  - `mv -i` prompts before overwrite; `mv -n` refuses to overwrite
+
+Common mistakes (and what they mean):
+- `cd` is for changing directories; it does not copy files (`cp`) and has no recursive `-r` flag.
+- Typos matter: `a.text` and `a.txt` are different files; use `/usr/bin/ls -la` to confirm names.
+- `rmdir` failing with “Directory not empty” is a safety feature; use it as a warning sign before `rm -r`.

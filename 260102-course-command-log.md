@@ -99,6 +99,32 @@ This file is a running list of commands learned/practiced during the course. App
 - `mv "two words.txt" two-words.txt`
 - `rmdir dirB`
 - `rm alpha-copy.txt`
+- `mkdir -p ~/terminal-playground/lesson-04-core && cd ~/terminal-playground/lesson-04-core`
+- `mkdir inbox archive work`
+- `touch note.txt todo.txt "two words.txt"`
+- `cp note.txt note-copy.txt`
+- `cp "two words.txt" inbox/`
+- `cp -r work work-copy`
+- `mv todo.txt inbox/`
+- `mv "two words.txt" two-words.txt`
+- `mv inbox/todo.txt .`
+- `rmdir archive`
+- `rm note-copy.txt`
+- `/usr/bin/ls -la inbox`
+- `rm -r inbox`
+- `cp -i a.txt note.txt`
+- `cp -n a.txt note.txt`
+- `mv -i b.txt a.txt`
+- `mv -n b.txt a.txt`
+- `mkdir -p drill/src drill/out`
+- `touch drill/src/alpha.txt drill/src/beta.txt "drill/src/two words.txt"`
+- `cp -r drill drill-copy`
+- `mv "drill/src/two words.txt" drill/src/two-words.txt`
+- `mv drill/src/beta.txt drill/out/`
+- `rm drill/src/alpha.txt`
+- `rmdir drill/out`
+- `rm -r drill/out`
+- `rm -r drill drill-copy`
 - `cd ~/Downloads`
 - `/usr/bin/ls -la`
 - `unzip -l balenaEtcher*.zip`
