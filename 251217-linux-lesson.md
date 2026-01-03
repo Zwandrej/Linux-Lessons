@@ -80,7 +80,7 @@ Lessons live in `lessons/` (one file per lesson). This section is just an index.
 
 ### Lesson 4 — Create/Move/Copy/Delete (Safe Habits)
 - File: `lessons/260102-lesson-04-files-safety.md`
-- Status: in progress
+- Status: completed
 
 ## Progress Tracker
 - [x] Module A complete

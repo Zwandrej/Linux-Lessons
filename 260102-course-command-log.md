@@ -87,3 +87,32 @@ This file is a running list of commands learned/practiced during the course. App
 - `echo file[12].txt`
 - `printf "<%s>\\n" *.txt`
 
+## Lesson 4 — Create/Move/Copy/Delete (Safe Habits)
+- `mkdir -p ~/terminal-playground/lesson-04-files && cd ~/terminal-playground/lesson-04-files`
+- `pwd`
+- `/usr/bin/ls -la`
+- `touch alpha.txt beta.txt "two words.txt"`
+- `mkdir dirA dirB`
+- `cp alpha.txt alpha-copy.txt`
+- `cp -r dirA dirA-copy`
+- `mv beta.txt dirA/`
+- `mv "two words.txt" two-words.txt`
+- `rmdir dirB`
+- `rm alpha-copy.txt`
+- `cd ~/Downloads`
+- `/usr/bin/ls -la`
+- `unzip -l balenaEtcher*.zip`
+- `mkdir -p ~/Applications/etcher`
+- `unzip balenaEtcher*.zip -d ~/Applications/etcher`
+- `file ~/Applications/etcher/*`
+- `chmod +x ~/Applications/etcher/balenaEtcher-linux-x64/balena-etcher`
+- `mkdir -p ~/.local/bin`
+- `ln -sf ~/Applications/etcher/balenaEtcher-linux-x64/balena-etcher ~/.local/bin/etcher`
+- `~/.local/bin/etcher`
+- `rm -rf ~/Applications/etcher`
+- `rm -f ~/.local/bin/etcher`
+- `lsblk -o NAME,SIZE,MODEL,FSTYPE,MOUNTPOINTS`
+- `lsblk -f /dev/sda`
+- `sudo dd if=./debian-live-13.2.0-amd64-xfce.iso of=/dev/sda bs=4M status=progress oflag=sync`
+- `sudo dd if=./debian-12.12.0-i386-netinst.iso of=/dev/sda bs=4M status=progress oflag=sync`
+- `sync`
